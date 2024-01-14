@@ -1,8 +1,12 @@
 import React from "react"
+import '@/components/style.css'
 
 export default function Navbar(props) {
     return (
          <nav
+            style={{
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Add your box shadow values here
+            }}
             className={props.darkMode ? "dark": ""}
         >
             <img
