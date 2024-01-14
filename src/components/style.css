@@ -137,6 +137,7 @@ main.dark {
 .main--facts > li {
     line-height: 19px;
     padding-block: 10px;
+    margin-left: 40px;
 }
 
 .main--facts > li::marker {
